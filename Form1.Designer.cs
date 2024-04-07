@@ -30,11 +30,11 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menu1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menu2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.form2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.form3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.form4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,6 +60,20 @@
             this.menu1ToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
             this.menu1ToolStripMenuItem.Text = "Menu1";
             // 
+            // form2ToolStripMenuItem
+            // 
+            this.form2ToolStripMenuItem.Name = "form2ToolStripMenuItem";
+            this.form2ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.form2ToolStripMenuItem.Text = "Form2";
+            this.form2ToolStripMenuItem.Click += new System.EventHandler(this.form2ToolStripMenuItem_Click);
+            // 
+            // form3ToolStripMenuItem
+            // 
+            this.form3ToolStripMenuItem.Name = "form3ToolStripMenuItem";
+            this.form3ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.form3ToolStripMenuItem.Text = "Form3";
+            this.form3ToolStripMenuItem.Click += new System.EventHandler(this.form3ToolStripMenuItem_Click);
+            // 
             // menu2ToolStripMenuItem
             // 
             this.menu2ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -68,29 +82,18 @@
             this.menu2ToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
             this.menu2ToolStripMenuItem.Text = "Menu2";
             // 
+            // form4ToolStripMenuItem
+            // 
+            this.form4ToolStripMenuItem.Name = "form4ToolStripMenuItem";
+            this.form4ToolStripMenuItem.Size = new System.Drawing.Size(134, 26);
+            this.form4ToolStripMenuItem.Text = "Form4";
+            // 
             // logOutToolStripMenuItem
             // 
             this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
             this.logOutToolStripMenuItem.Size = new System.Drawing.Size(72, 24);
             this.logOutToolStripMenuItem.Text = "LogOut";
-            // 
-            // form2ToolStripMenuItem
-            // 
-            this.form2ToolStripMenuItem.Name = "form2ToolStripMenuItem";
-            this.form2ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.form2ToolStripMenuItem.Text = "Form2";
-            // 
-            // form3ToolStripMenuItem
-            // 
-            this.form3ToolStripMenuItem.Name = "form3ToolStripMenuItem";
-            this.form3ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.form3ToolStripMenuItem.Text = "Form3";
-            // 
-            // form4ToolStripMenuItem
-            // 
-            this.form4ToolStripMenuItem.Name = "form4ToolStripMenuItem";
-            this.form4ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.form4ToolStripMenuItem.Text = "Form4";
+            this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
             // 
             // Form1
             // 
