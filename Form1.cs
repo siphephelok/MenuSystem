@@ -53,5 +53,11 @@ namespace MenuSystem
             }
             
         }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            LogInForm log = new LogInForm();
+            FormSetup(log);
+        }
     }
 }
