@@ -42,7 +42,16 @@ namespace MenuSystem
 
         private void logOutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Close();
+            DialogResult result = MessageBox.Show("Are you sure you want to LogOut", "Question", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                this.Close();
+            }
+            else
+            {
+                this.Show();
+            }
+            
         }
     }
 }
